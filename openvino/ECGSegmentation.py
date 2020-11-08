@@ -51,11 +51,11 @@ def main():
         level=log.INFO, stream=sys.stdout)
     args = build_argparser().parse_args()
 
-    log.info("Start ECG classification sample")
+    log.info("Start ECG segmentation sample")
     
     # Create ECGSegmenter
 
-    # Read data with pandas
+    # Read data with numpy
 
     # Start inference
 
